@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>個人網站</title>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/Personal.css">
+    <link rel="stylesheet" type="text/css" href="css/S1.css">
+    <link rel="stylesheet" type="text/css" href="css/S2.css">
+    <link rel="stylesheet" type="text/css" href="css/S3.css">
+    <link rel="stylesheet" type="text/css" href="css/S3-1.css">
+    <link rel="stylesheet" type="text/css" href="css/S4.css">
+    <link rel="stylesheet" type="text/css" href="css/S4-1.css">
+    <link rel="stylesheet" type="text/css" href="css/S5.css">
+    <link rel="stylesheet" type="text/css" href="css/S6.css">
+    <!--Skillbar-->
+    <link rel="stylesheet" type="text/css" href="css/skillbar1.css">
+    <link rel="stylesheet" type="text/css" href="css/skillbar2.css">
+
+    <!--照片輪播-->
+    <link rel="stylesheet" type="text/css" href="css/Box_slide.css">
+    <link rel="stylesheet" type="text/css" href="css/slide1.css">
+
+    <!--生活紀錄輪播-->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+
+</head>
+
+<body>
+    <!--------------------上方表頭--------------------------------------->
+    <header class="title">
+        <img id="top-logo" src="img/logo.jpg">
+    </header>
+    <!--------------------左上方彈出選單---------------------------------->
+
+    <div class="dropdown">
+
+        <a class="dropbtn" onclick="changeHeight()" id="dropbtn">
+            <img class="btn-menu" src="img/menu.png">
+        </a>
+        <div class="box" style="height: 0;" id="box">
+            <p><img class="Home" src="img/home.png" id="home"></p>
+            <p id="intro">自我介紹</p>
+            <p id="exp">學習經歷</p>
+            <p id="workexp">工作經歷</p>
+            <p id="skills">專業技能</p>
+            <p id="certificate">證照與證書</p>
+            <p id="projects">作品介紹</p>
+            <p id="target">目標與期許</p>
+            <p id="records">生活紀錄</p>
+        </div>
+    </div>
+
+    <!--------------------照片------------------------------------------->
+    <div>
+        <hr id="S0" class="S0-title">
+    </div>
+    <div>
+        <ul class="S0">
+
+            <div>
+                <li class="slide"><img src="img/pic/1.jpg" alt=""></li>
+            </div>
+            <div>
+                <li class="slide"><img src="img/pic/2.jpg" alt=""></li>
+            </div>
+            <div>
+                <li class="slide"><img src="img/pic/3.jpg" alt=""></li>
+            </div>
+        </ul>
+
+    </div>
+
+    <!--------------------中間自介---------------------------------------->
+
+    <div class="S1">
+        <hr id="S1">
+        <div class="S1-title">
+            <p>自我介紹</p>
+            <hr>
+        </div>
+        <div class="S1-Pic-border">
+            <img class="S1-Pic" src="img/personal.jpg">
+            <div class="S1-name">
+                潘冠宇<br>Alan-pan
+            </div>
+        </div>
+        <div class="S1-intro">
+            <h3 class="S1-intro-text">
+                人生就是生活的過程。哪能沒有風沒有雨？<br>有了失敗的痛苦才會嘗到成功的喜悅。<br>
+                <hr class="S1-intro-hr">
+                <div class="S1-intro-detail">
+                    tel:0937913038<br> add:台北市北投區
+                    <br> mail:panguanyu57@gmail.com
+                </div>
+
+            </h3>
+            <div class="S1-intro-icon">
+
+                <a target="_blank" href="https://www.facebook.com/alix.smith.186?ref=bookmarks">
+                    <img class="icon1" src="img/fb.svg">
+                </a>
+
+                <a target="_blank" href="https://www.instagram.com/panguanyu0115/?hl=zh-tw">
+                    <img class="icon2" src="img/ig.svg">
+                </a>
+
+                <a target="_blank" href="mailto:panguanyu57@gmail.com">
+                    <img class="icon3" src="img/gmail.svg">
+                </a>
+
+                <a target="_blank" href="https://github.com/Alanpan0115">
+                    <img class="icon4" src="img/git.png">
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--------------------學習經歷---------------------------------------->
+
+    <div class="S2" id="S2">
+        <div class="S2-title">
+            <p>學習經歷</p>
+            <hr>
+        </div>
+        <hr class="line">
+        <!--國小-->
+        <div>
+            <div class="S2-cir1"> </div>
+            <img src="img/cir1.jpg" class="S2-img1">
+            <div class="S2-cont1">
+                <p>石牌國小</p>
+            </div>
+        </div>
+        <!--國中-->
+        <div>
+            <div class="S2-cir2"> </div>
+            <img src="img/cir2.jpg" class="S2-img2">
+            <div class="S2-cont2">
+                <p>石牌國中</p>
+            </div>
+        </div>
+        <!--高中-->
+        <div>
+            <div class="S2-cir3"> </div>
+            <img src="img/cir3.jfif" class="S2-img3">
+            <div class="S2-cont3">
+                <p>松山高中</p>
+            </div>
+        </div>
+        <!--大學-->
+        <div>
+            <div class="S2-cir4"> </div>
+            <img src="img/cir4.png" class="S2-img4">
+            <div class="S2-cont4">
+                <p>中原大學</p>
+            </div>
+        </div>
+
+    </div>
+    <!--------------------工作經歷---------------------------------------->
+    <div class="S22" id="S22">
+        <div class="S22-title">
+            <p>工作經歷</p>
+            <hr>
+        </div>
+        <div class="S22-P1">
+            <img src="img/job/job.png" class="S22-img">
+            <img src="img/job/job1.png" class="S22-img2">
+            <img src="img/job/job2.png" class="S22-img3">
+        </div>
+        <div class="S22-P2">
+            <p>職稱:實習生 (2022/01~2022/06)</p>
+            <p>工作地點:頡威軟體科技有限公司</p>
+            <p>工作內容:</p>
+            <p>1.測試使用者介面並回報問題給工程師</p>
+            <p>2.撰寫部分程式的API並加以測試</p>
+            <p>3.處理庶務</p>
+        </div>
+
+
+    </div>
+
+
+    <!--------------------專業技能---------------------------------------->
+    <div id="skills" class="S4">
+        <hr id="S4" class="S4-line">
+        <div class="S4-title">
+            <p>專業技能</p>
+            <hr>
+        </div>
+        <!---技能圖---->
+        <div class="bar1">
+            <!-----------------------圓圖--------------------------------->
+            <div class="S2-circle">
+                <section id="circleBar">
+
+                    <div class="contain">
+                        <div class="row">
+
+                            <div class="col1">
+                                <div class="round" data-value="0.70" data-size="100" data-thickness="12">
+                                    <strong></strong>
+                                    <span><i class="fa fa-html5"></i>
+                                        英文
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col2">
+                                <div class="round" data-value="0.3" data-size="100" data-thickness="12">
+                                    <strong></strong>
+                                    <span><i class="fa fa-css3"></i>
+                                        日文 
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="col3">
+                                <div class="round" data-value="0.75" data-size="100" data-thickness="12">
+                                    <strong></strong>
+                                    <span><i class="fa fa-jsfiddle"></i>
+                                        文書
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="col4">
+                                <div class="round" data-value="0.65" data-size="100" data-thickness="12">
+                                    <strong></strong>
+                                    <span><i class="fa fa-laptop"></i>
+                                        Javascript
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        <div class="bar2">
+            <!-----------------------長條圖--------------------------------->
+            <div class="skill-bars">
+
+                <div class="bar">
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>jQuery</span>
+                    </div>
+                    <div class="progress-line jquery">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>MySQL</span>
+                    </div>
+                    <div class="progress-line mysql">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>C#</span>
+                    </div>
+                    <div class="progress-line C">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!--------------------專業證照---------------------------------------->
+    <div id="certificate" class="S4-1">
+        <hr id="S4-1" class="S4-1-line">
+        <div class="S4-1-title">
+            <p>證照與證書</p>
+            <hr>
+        </div>
+        <!---證照---->
+        <div class="Box">
+            <ul class="Slides">
+                <input type="radio" id="Control-1" name="Control" checked>
+                <input type="radio" id="Control-2" name="Control">
+                <input type="radio" id="Control-3" name="Control">
+                <input type="radio" id="Control-4" name="Control">
+
+
+
+                <!--  Left/Right Button  -->
+                <div class="navigator Slide-1">
+                    <label for="Control-4">
+                    <i class="fas fa-chevron-left"><img src="img/left.png" alt=""></i>
+                  </label>
+                    <label for="Control-2">
+                    <i class="fas fa-chevron-right"><img src="img/right.png" alt=""></i>
+                  </label>
+                </div>
+
+                <div class="navigator Slide-2">
+                    <label for="Control-1">
+                    <i class="fas fa-chevron-left"><img src="img/left.png" alt=""></i>
+                  </label>
+                    <label for="Control-3">
+                    <i class="fas fa-chevron-right"><img src="img/right.png" alt=""></i>
+                  </label>
+                </div>
+
+                <div class="navigator Slide-3">
+                    <label for="Control-2">
+                    <i class="fas fa-chevron-left"><img src="img/left.png" alt=""></i>
+                  </label>
+                    <label for="Control-4">
+                    <i class="fas fa-chevron-right"><img src="img/right.png" alt=""></i>
+                  </label>
+                </div>
+
+                <div class="navigator Slide-4">
+                    <label for="Control-3">
+                    <i class="fas fa-chevron-left"><img src="img/left.png" alt=""></i>
+                  </label>
+                    <label for="Control-1">
+                    <i class="fas fa-chevron-right"><img src="img/right.png" alt=""></i>
+                  </label>
+                </div>
+
+                <!--  /Left/Right Button  -->
+                <!--證照分類1--------------------------------------->
+                <li class="Slide">
+                    <p class="Ch1">Google數位基礎行銷</p>
+                    <div class="box1">
+                        <ul class="slides">
+                            <li class="slide"><img src="img/cirtificate/c1.PNG"></li>
+                        </ul>
+                    </div>
+                    <div class="box2">
+                        <div id="g1" style="display: true;">
+                            <h3>Google數位基礎行銷認證</h3>
+                            <hr>
+                            <p>透過完成26個主題課程後，可了解基本的數位<br>行銷概念。</p>
+                        </div>
+                    </div>
+                </li>
+                <!--證照分類2------------------------------------------>
+                <li class="Slide">
+                    <p class="Ch2">Google Analystic</p>
+                    <div class="box1">
+                        <ul class="slides">
+                            <input type="radio" id="control-1" name="control" onclick="show2_1()" checked>
+                            <input type="radio" id="control-2" name="control" onclick="show2_2()">
+                            <input type="radio" id="control-3" name="control" onclick="show2_3()">
+
+
+                            <li class="slide"><img src="img/cirtificate/c2_1.PNG"></li>
+                            <li class="slide"><img src="img/cirtificate/c2_2.PNG"></li>
+                            <li class="slide"><img src="img/cirtificate/c2_3.PNG"></li>
+
+                            <div class="controls-visible">
+                                <label for="control-1"></label>
+                                <label for="control-2"></label>
+                                <label for="control-3"></label>
+
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="box2">
+
+                        <div id="g2-1" style="display: true;">
+                            <h3>Google Analystic 基礎課程結業證書</h3>
+                            <hr>
+                            <p>
+                                完成基礎課程後，盡管對於google analystic的功<br>能有了大致上的了解，但對於實際的應用上來說<br>可能並不是非常足夠，但透過該課程可以了解這<br>項開發工具對於分析來說是蠻方便且可以應用的<br>範圍也很廣泛。
+                            </p>
+                        </div>
+                        <div id="g2-2" style="display: none;">
+                            <h3>Google Analystic進階課程結業證書</h3>
+                            <hr>
+                            <p>進階課程相較於基礎課程多了一些實作的內容，<br>對於應用介面的介紹比較仔細，且課程較為複雜<br>，多了蠻多細節需要去注意。
+                            </p>
+                        </div>
+                        <div id="g2-3" style="display: none;">
+                            <h3>Google Analystic認證</h3>
+                            <hr>
+                            <p>盡管課程都上完且證書也都取得了，但單純的閱<br>讀、死記跟實際去應用還是存在蠻大的差別的，<br>若是叫我直接去應用google analystic，我認為我<br>沒辦法直接去使用該工具去進行分析，但總體來<br>說該課程內容是蠻充實的。
+                            </p>
+                        </div>
+
+                    </div>
+                </li>
+                <!--證照分類3---------->
+                <li class="Slide">
+                    <p class="Ch1">Google Ads 影音廣告</p>
+                    <div class="box1">
+                        <ul class="slides">
+                            <li class="slide"><img src="img/cirtificate/c3.PNG"></li>
+                        </ul>
+                    </div>
+                    <div class="box2">
+                        <div id="g1" style="display: true;">
+                            <h3>Google Ads 影音廣告認證</h3>
+                            <hr>
+                            <p>透過完成主題課程後，可了解到影音行銷上不同<br>手法以及基本的概念。</p>
+                        </div>
+                    </div>
+                </li>
+                <!--證照分類4------(暫放)-->
+                <li class="Slide">
+                    <p class="Ch1">Google Ads 多媒體廣告認證</p>
+                    <div class="box1">
+                        <ul class="slides">
+                            <li class="slide"><img src="img/cirtificate/c4.PNG"></li>
+                        </ul>
+                    </div>
+                    <div class="box2">
+                        <div id="g1" style="display: true;">
+                            <h3>Google Ads 多媒體廣告認證</h3>
+                            <hr>
+                            <p>透過此課程可以了解google對於廣告投放的對象<br>以及廣告產生的方式等等，對於行銷方面的知識</p>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+    </div>
+
+    <!--------------------專題介紹---------------------------------------->
+    <div class="S3">
+        <hr id="S3" class="S3-line">
+        <div class="S3-title">
+            <button class="Pro" id="page1" onclick="aa()" checked>
+                專題介紹
+            </button>
+            <button class="pro" id="page2" onclick="bb()">
+                個人作品介紹
+            </button>
+        </div>
+        <div class="S3-page1" id="S3-page1">
+
+            <div class="outer-container">
+                <div class="inner-container">
+                    <div class="content2">
+                        <!--期中專題-->
+                        <div class="S3-p1" id="S3-p1" style="display: true;">
+                            <a href="https://alanpan0115.github.io/CYCUGE/CYCUGE/index.html"><img class="S3-img" src="img/Pro/b1/b1.PNG"></a>
+                            <div class="S3-p1-content">
+                                <p style="font-weight:bold;">期中專題</p>
+                                <p>根據學校所提供的校內資源去進行網頁上的介紹，我們選擇的主題是學<br>校所提供的通識課程以及其他音樂相關的課外活動介紹。</p>
+                            </div>
+                            <a target="_blank" href="https://alanpan0115.github.io/CYCUGE/CYCUGE/index.html">
+                                <img class="icon4" src="img/git.png">
+                            </a>
+                            <hr>
+                        </div>
+
+                        <!--期末專題1-->
+                        <div class="S3-p2" id="S3-p2" style="display: true;">
+                            <a href="https://alanpan0115.github.io/Demo1/index.html"><img class="S3-img" src="img/Pro/b2/b2.PNG"></a>
+                            <div class="S3-p2-content">
+                                <p style="font-weight:bold;">期末專題(前端)</p>
+                                <p>設計出屬於自己組別的購物網站，透過實作的過程去了解如何從無到有<br>規劃出一個完整的網站。</p>
+                            </div>
+                            <a target="_blank" href="https://alanpan0115.github.io/Demo/index.html">
+                                <img class="icon4" src="img/git.png">
+                            </a>
+                            <hr>
+                        </div>
+
+                        <!--期末專題2-->
+                        <div class="S3-p3" id="S3-p3" style="display: true;">
+
+                            <a href="https://github.com/Alanpan0115/Demo2/tree/main/lasthw"><img class="S3-img" src="img/Pro/b3/b3.PNG"></a>
+
+                            <div class="S3-p3-content">
+                                <p style="font-weight:bold;">期末專題(後端)</p>
+                                <p>
+                                    透過和甲班同學的合作，講雙方的設計去進行結合，在溝通與團隊合作<br>中共同去開發屬於自己的購物網站。(需使用Tomcat開啟)
+                                </p>
+                            </div>
+                            <a target="_blank" href="https://github.com/Alanpan0115/Demo2/tree/main/lasthw">
+                                <img class="icon4" src="img/git.png">
+                            </a>
+                            <hr>
+                        </div>
+
+                        <!--期末專題3-->
+                        <div class="S3-p4" id="S3-p4" style="display: true;">
+                            <a href="https://github.com/Alanpan0115/Demo3"><img class="S3-img" src="img/Pro/b4/b4.PNG"></a>
+                            <div class="S3-p4-content">
+                                <p style="font-weight:bold;">期末專題(後端)</p>
+                                <p>
+                                    透過簡單的介面，去向老師介紹資料庫會使用到的功能，以及資料庫<br>當中的程式是如何運作的。
+                                </p>
+                            </div>
+                            <a target="_blank" href="https://github.com/Alanpan0115/Demo3">
+                                <img class="icon4" src="img/git.png">
+                            </a>
+                            <a target="_blank" href="https://docs.google.com/document/d/1yxl_2AMVq-rCSRtugAV4_a_NoS-BD-GS/edit?usp=sharing&ouid=108328748112015294120&rtpof=true&sd=true">
+                                <img class="icon5" src="img/cloud.png">
+                            </a>
+
+                            <hr>
+                        </div>
+                        <div class="S3-p5" id="S3-p5" style="display: true;">
+                            <a href="https://drive.google.com/drive/folders/14IAQVBNLrXBjgvrGPMo8glLs9mTSdh_w?usp=sharing"><img class="S3-img" src="img/Pro/b5/b5.PNG"></a>
+                            <div class="S3-p5-content">
+                                <p style="font-weight:bold;">畢業專題</p>
+                                <p>
+                                    以點擊遊戲的方式去進行使用者分析，透過分析使用者的遊玩成績去分<br>析出使用者的靈敏度、失敗率、排名程度等等。
+                                </p>
+                            </div>
+                            <a target="_blank" href="https://drive.google.com/drive/folders/14IAQVBNLrXBjgvrGPMo8glLs9mTSdh_w?usp=sharing">
+                                <img class="icon4" src="img/cloud.png">
+                            </a>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--------------------個人作品介紹---------------------------------------->
+        <div class="S3-page2" id="S3-page2" style="display: none;">
+            <div class="outer-container" id="scroll">
+                <div class="inner-container">
+                    <div class="content2">
+                        <!--個人簡歷-->
+                        <div class="S3-b1" id="S3-b1" style="display: none;">
+                            <a href="https://alanpan0115.github.io/Personal-Website/Personal-Website/10744251.html"><img class="S3-img" src="img/Pro2/p1/p1.PNG"></a>
+                            <div class="S3-b1-content">
+                                <p style="font-weight:bold;">個人網頁</p>
+                                <p>透過老師的教學以及基本的練習嘗試去設計出屬於自己的第一個網頁。</p>
+                            </div>
+                            <a target="_blank" href="https://alanpan0115.github.io/Personal-Website/Personal-Website/10744251.html">
+                                <img class="icon4" src="img/git.png">
+                            </a>
+                            <hr>
+                        </div>
+
+                        <!--個人網頁-->
+                        <div class="S3-b2" id="S3-b2" style="display: none;">
+                            <a href="https://alanpan0115.github.io/Resume/Resume/resume.html"><img class="S3-img" src="img/Pro2/p2/p2.PNG"></a>
+                            <div class="S3-b2-content">
+                                <p style="font-weight:bold;">個人簡歷</p>
+                                <p>同上個作品一樣，透過老師的教學以及網路上的資源在期限內寫出關於<br>我個人的介紹，包含興趣、學經歷等等。</p>
+                            </div>
+                            <a target="_blank" href="https://alanpan0115.github.io/Resume/Resume/resume.html">
+                                <img class="icon4" src="img/git.png">
+                            </a>
+                            <hr>
+                        </div>
+
+                        <!--個人網站-->
+
+                        <div class="S3-b3" id="S3-b3" style="display: none;">
+
+                            <a href="https://github.com/Alanpan0115/Demo2/tree/main/lasthw"><img class="S3-img" src="img/Pro2/p3/p3.PNG"></a>
+
+                            <div class="S3-b3-content">
+                                <p style="font-weight:bold;">個人網站</p>
+                                <p>
+                                    歸納大學期間所製作的作品並進行整理，再重新進行設計，可以算是一<br>次程式上的複習，幫助我回想大二時所使用的一些程式技能。
+                                </p>
+                            </div>
+                            <a target="_blank" href="https://github.com/Alanpan0115/Demo2/tree/main/lasthw">
+                                <img class="icon4" src="img/git.png">
+                            </a>
+                            <hr>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--------------------目標與期許-------------------------------------->
+    <div id="targets" class="S5">
+        <hr id="S5" class="S5-line">
+        <div class="S5-title">
+            <p>目標與期許</p>
+            <hr>
+            <div class="S5-content">
+                <p>
+                    希望在未來可以多學一些程式相關的專業技能，增加自己的專業素養，
+                    <br>並且多閱讀國內外財經相關的報導、文章，加強個人的理財能力，可以
+                    <br>的話最好是去考一些財務相關或是保險相關的證照，在理解自身權益的
+                    <br>同時可以順便增加自己的個人能力，最後，除英文外多去培養第三外語
+                    <br>，希望可以在明年考到日語證照。
+                </p>
+                <img src="img/study.png">
+            </div>
+
+        </div>
+    </div>
+
+    <!--------------------生活紀錄---------------------------------------->
+    <div id="records" class="S6">
+        <hr id="S6" class="S6-line">
+        <div class="S6-title">
+            <p>生活紀錄</p>
+            <hr>
+            <section class="regular slider">
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/249242.jpg">
+                        <div class="textBox">
+                            <h1>匠心拉麵</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254047.jpg">
+                        <div class="textBox">
+                            <h1>匠心拉麵</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254048.jpg">
+                        <div class="textBox">
+                            <h1>豆和菓子</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254052.jpg">
+                        <div class="textBox">
+                            <h1>咖逼<br>小売所</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254077.jpg">
+                        <div class="textBox">
+                            <h1>咖逼<br>小売所</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254054.jpg">
+                        <div class="textBox">
+                            <h1>森山舍</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/249249.jpg">
+                        <div class="textBox">
+                            <h1>鬼金棒<br>拉麵</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254056.jpg">
+                        <div class="textBox">
+                            <h1>北投溫泉<br>博物館</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254058.jpg">
+                        <div class="textBox">
+                            <h1>北回歸線<br>標誌公園</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254061.jpg">
+                        <div class="textBox">
+                            <h1>牛山呼庭</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254062.jpg">
+                        <div class="textBox">
+                            <h1>牛山呼庭</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254064.jpg">
+                        <div class="textBox">
+                            <h1>池上飯包</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254065.jpg">
+                        <div class="textBox">
+                            <h1>大農大富</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254067.jpg">
+                        <div class="textBox">
+                            <h1>七星潭</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="imageBox">
+                        <img src="img/life/254068.jpg">
+                        <div class="textBox">
+                            <h1>廟口紅茶</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+    </div>
+
+    </div>
+    <!--------------------底部留白---------------------------------------->
+    <div class="bottom">
+
+    </div>
+</body>
+<!--------------------------------下拉選單------------------------------------------>
+<script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>
+
+<!--------------------------------下拉選單點擊內容後滑動至指定位置--------------------------------->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/locate.js"></script>
+
+<!--------------------------------圖片切換後顯示右方文字(證照)------------------------>
+<script type="text/javascript" src="js/change.js"></script>
+
+<!--------------------------------skillbar1(圓圖)----------------------------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.js"></script>
+<script type="text/javascript" src="js/skillbar1.js"></script>
+
+<!--------------------------------標籤頁換頁----------------------------------------->
+<script type="text/javascript" src="js/Changepage.js"></script>
+
+<!--------------------------------滑動至指定位置後顯示-------------------------------->
+<script>
+</script>
+<!--------------------------------生活紀錄圖片輪播-------------------------------->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).on('ready', function() {
+        $(".regular").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+
+    });
+</script>
+
+</html>

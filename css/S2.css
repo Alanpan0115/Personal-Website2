@@ -1,0 +1,241 @@
+/* ------------學習經歷----------------- */
+
+.S2 {
+    position: absolute;
+    top: 1040px;
+    width: 1200px;
+    height: 450px;
+    margin: 30px 60px 40px 55px;
+    border: solid;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: white;
+    z-index: -5;
+}
+
+.S2-title p {
+    position: absolute;
+    top: 50px;
+    margin-left: 65px;
+    font-size: 20px;
+}
+
+.S2-title hr {
+    position: absolute;
+    top: 90px;
+    margin-left: 65px;
+    width: 80px;
+    border: solid;
+    border-color: #9c9c9cef;
+}
+
+.line {
+    margin-top: 215px;
+    margin-left: 65px;
+    margin-right: 80px;
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(240, 208, 0);
+    background-color: rgb(240, 208, 0);
+    height: 5px;
+}
+
+.S2-cir1 {
+    position: absolute;
+    top: 173px;
+    width: 90px;
+    height: 90px;
+    margin-left: 146px;
+    -webkit-clip-path: circle(49.8% at 50% 50%);
+    clip-path: circle(49.8% at 50% 50%);
+    background-color: rgb(240, 208, 0);
+}
+
+.S2-img1 {
+    position: absolute;
+    top: 178px;
+    margin-left: 151px;
+    width: 80px;
+    height: 80px;
+    -webkit-clip-path: circle(49.8% at 50% 50%);
+    clip-path: circle(49.8% at 50% 50%);
+}
+
+.S2-cont1 {
+    position: absolute;
+    top: 270px;
+    width: 90px;
+    height: 90px;
+    margin-left: 160px;
+}
+
+.S2-cir2 {
+    position: absolute;
+    top: 173px;
+    width: 90px;
+    height: 90px;
+    margin-left: 415px;
+    -webkit-clip-path: circle(49.8% at 50% 50%);
+    clip-path: circle(49.8% at 50% 50%);
+    background-color: rgb(240, 208, 0);
+}
+
+.S2-img2 {
+    position: absolute;
+    top: 178px;
+    margin-left: 420px;
+    width: 80px;
+    height: 80px;
+    -webkit-clip-path: circle(49.8% at 50% 50%);
+    clip-path: circle(49.8% at 50% 50%);
+}
+
+.S2-cont2 {
+    position: absolute;
+    top: 270px;
+    width: 90px;
+    height: 90px;
+    margin-left: 429px;
+}
+
+.S2-cir3 {
+    position: absolute;
+    top: 173px;
+    width: 90px;
+    height: 90px;
+    margin-left: 685px;
+    -webkit-clip-path: circle(49.8% at 50% 50%);
+    clip-path: circle(49.8% at 50% 50%);
+    background-color: rgb(240, 208, 0);
+}
+
+.S2-img3 {
+    position: absolute;
+    top: 178px;
+    margin-left: 690px;
+    width: 80px;
+    height: 80px;
+    -webkit-clip-path: circle(49.8% at 50% 50%);
+    clip-path: circle(49.8% at 50% 50%);
+}
+
+.S2-cont3 {
+    position: absolute;
+    top: 270px;
+    width: 90px;
+    height: 90px;
+    margin-left: 700px;
+}
+
+.S2-cir4 {
+    position: absolute;
+    top: 173px;
+    width: 90px;
+    height: 90px;
+    margin-left: 955px;
+    -webkit-clip-path: circle(49.8% at 50% 50%);
+    clip-path: circle(49.8% at 50% 50%);
+    background-color: rgb(240, 208, 0);
+}
+
+.S2-img4 {
+    position: absolute;
+    top: 178px;
+    margin-left: 960px;
+    width: 80px;
+    height: 80px;
+    -webkit-clip-path: circle(49.8% at 50% 50%);
+    clip-path: circle(49.8% at 50% 50%);
+}
+
+.S2-cont4 {
+    position: absolute;
+    top: 270px;
+    width: 90px;
+    height: 90px;
+    margin-left: 970px;
+}
+
+
+/*-----------S22(工作經歷)-----------*/
+
+.S22 {
+    position: absolute;
+    top: 1380px;
+    width: 1200px;
+    height: 400px;
+    margin: 30px 60px 40px 55px;
+    border: solid;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    z-index: -5;
+}
+
+.S22-title p {
+    position: absolute;
+    top: 50px;
+    margin-left: 65px;
+    font-size: 20px;
+}
+
+.S22-title hr {
+    position: absolute;
+    top: 90px;
+    margin-left: 65px;
+    width: 80px;
+    border: solid;
+    border-color: #9c9c9cef;
+}
+
+.line {
+    margin-top: 215px;
+    margin-left: 65px;
+    margin-right: 80px;
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(240, 208, 0);
+    background-color: rgb(240, 208, 0);
+    height: 5px;
+}
+
+.S22-img {
+    position: absolute;
+    top: 150px;
+    margin-left: 75px;
+    width: 200px;
+    height: 230px;
+}
+
+.S22-P1 img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+}
+
+.S22-P1 img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.S22-img2 {
+    position: absolute;
+    top: 200px;
+    margin-left: 185px;
+    width: 190px;
+    height: 120px;
+}
+
+.S22-img3 {
+    position: absolute;
+    top: 120px;
+    margin-left: 205px;
+    width: 180px;
+    height: 100px;
+    z-index: -1;
+}
+
+.S22-P2 {
+    position: absolute;
+    top: 100px;
+    margin-left: 505px;
+    font-size: 20px;
+}

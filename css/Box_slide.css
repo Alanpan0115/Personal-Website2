@@ -1,0 +1,143 @@
+ul.Slides {
+    position: relative;
+    width: 1200px;
+    height: 450px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+li.Slide {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 120px;
+    color: #fff;
+    transition: .5s transform ease-in-out;
+}
+
+.Slide:nth-of-type(1) {
+    background-color: #ffffff;
+}
+
+.Slide:nth-of-type(2) {
+    background-color: #ffffff;
+    left: 100%;
+}
+
+.Slide:nth-of-type(3) {
+    background-color: #ffffff;
+    left: 200%;
+}
+
+.Slide:nth-of-type(4) {
+    background-color: #ffffff;
+    left: 300%;
+}
+
+input[type="radio"] {
+    position: relative;
+    z-index: 100;
+    display: none;
+}
+
+.Controls-visible {
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+    text-align: center;
+}
+
+.Controls-visible label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 0 3px;
+    border: 2px solid #fff;
+}
+
+.Slides input[type="radio"]:nth-of-type(1):checked~.Controls-visible label:nth-of-type(1) {
+    background-color: #333;
+}
+
+.Slides input[type="radio"]:nth-of-type(2):checked~.Controls-visible label:nth-of-type(2) {
+    background-color: #333;
+}
+
+.Slides input[type="radio"]:nth-of-type(3):checked~.Controls-visible label:nth-of-type(3) {
+    background-color: #333;
+}
+
+.Slides input[type="radio"]:nth-of-type(4):checked~.Controls-visible label:nth-of-type(4) {
+    background-color: #333;
+}
+
+
+/*------------------------------------------------*/
+
+.Slides input[type="radio"]:nth-of-type(1):checked~.Slide {
+    transform: translatex(0%);
+}
+
+.Slides input[type="radio"]:nth-of-type(2):checked~.Slide {
+    transform: translatex(-100%);
+}
+
+.Slides input[type="radio"]:nth-of-type(3):checked~.Slide {
+    transform: translatex(-200%);
+}
+
+.Slides input[type="radio"]:nth-of-type(4):checked~.Slide {
+    transform: translatex(-300%);
+}
+
+
+/* Left/Right Button Classes Below */
+
+.navigator {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    display: none;
+}
+
+.navigator img {
+    color: #333;
+    z-index: 500;
+    width: 30px;
+    height: 30px;
+}
+
+.Slides input[type="radio"]:nth-of-type(1):checked~.navigator:nth-of-type(1) {
+    display: flex;
+}
+
+.Slides input[type="radio"]:nth-of-type(2):checked~.navigator:nth-of-type(2) {
+    display: flex;
+}
+
+.Slides input[type="radio"]:nth-of-type(3):checked~.navigator:nth-of-type(3) {
+    display: flex;
+}
+
+.Slides input[type="radio"]:nth-of-type(4):checked~.navigator:nth-of-type(4) {
+    display: flex;
+}

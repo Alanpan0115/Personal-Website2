@@ -1,0 +1,59 @@
+/* ------------專業技能--------------- */
+
+.S4-line {
+    position: absolute;
+    top: -100px;
+}
+
+.S4-title hr {
+    position: absolute;
+    top: 20px;
+    margin-left: 65px;
+    width: 80px;
+    border: solid;
+    border-color: #9c9c9cef;
+}
+
+.S4-title p {
+    position: absolute;
+    top: -20px;
+    margin-left: 65px;
+    font-size: 20px;
+}
+
+.S4 {
+    position: absolute;
+    top: 1810px;
+    width: 1200px;
+    height: 550px;
+    margin: 30px 60px 40px 55px;
+    border-radius: 20px;
+    background-color: white;
+    z-index: -5;
+}
+
+.bar1 {
+    position: absolute;
+    top: 70px;
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+    border-radius: 20px;
+    background-color: white;
+    border: solid;
+    border-color: rgb(116, 116, 116);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bar2 {
+    position: absolute;
+    top: 70px;
+    width: 550px;
+    height: 350px;
+    margin-left: 500px;
+    border: solid;
+    border-color: rgb(116, 116, 116);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
