@@ -45,6 +45,11 @@ li.Slide {
     left: 300%;
 }
 
+.Slide:nth-of-type(5) {
+    background-color: #ffffff;
+    left: 400%;
+}
+
 input[type="radio"] {
     position: relative;
     z-index: 100;
@@ -84,6 +89,10 @@ input[type="radio"] {
     background-color: #333;
 }
 
+.Slides input[type="radio"]:nth-of-type(5):checked~.Controls-visible label:nth-of-type(5) {
+    background-color: #333;
+}
+
 
 /*------------------------------------------------*/
 
@@ -101,6 +110,10 @@ input[type="radio"] {
 
 .Slides input[type="radio"]:nth-of-type(4):checked~.Slide {
     transform: translatex(-300%);
+}
+
+.Slides input[type="radio"]:nth-of-type(5):checked~.Slide {
+    transform: translatex(-400%);
 }
 
 
@@ -139,5 +152,9 @@ input[type="radio"] {
 }
 
 .Slides input[type="radio"]:nth-of-type(4):checked~.navigator:nth-of-type(4) {
+    display: flex;
+}
+
+.Slides input[type="radio"]:nth-of-type(5):checked~.navigator:nth-of-type(5) {
     display: flex;
 }
