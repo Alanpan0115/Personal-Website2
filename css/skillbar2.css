@@ -37,7 +37,7 @@
 }
 
 .skill-bars .bar .progress-line {
-    height: 10px;
+    height: 8px;
     width: 100%;
     background: #f0f0f0;
     position: relative;
@@ -78,6 +78,10 @@
 
 .bar .progress-line.C span {
     width: 50%;
+}
+
+.bar .progress-line.Java span {
+    width: 55%;
 }
 
 .bar .progress-line.mysql span {
@@ -133,6 +137,10 @@
 
 .progress-line.C span::after {
     content: "50%";
+}
+
+.progress-line.Java span::after {
+    content: "55%";
 }
 
 .progress-line.mysql span::after {
